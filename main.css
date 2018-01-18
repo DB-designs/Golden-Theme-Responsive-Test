@@ -621,7 +621,7 @@ table {
 }
 
 td {
-    padding: 5px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -630,12 +630,12 @@ td {
 }
 
 #forumrecent {
-    font-size: 14px;
+    font-size: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     display: inline-block;
-    width: 250px;
+    width: 50%;
     color: #afafaf;
 }
 
