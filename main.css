@@ -3,7 +3,7 @@
 /* THIS IS THE DEVELOPER BRANCH!!!!! */
 /* Adding this CSS to DB is at your own risk */
 /* I would prefer you use the MASTER BANCH CSS*/
-/* Lucky Sevens asdasdasdasd77sssssssssssssssssssss7qq+ */
+/* yyyyyyyyyyyyyyyy */
 
 
 #lolgo {
@@ -32,6 +32,7 @@
     border: none;
     height: 135px;
     display: block;
+    width: 410px;
 }
 
 #linkroot {
@@ -1758,6 +1759,7 @@ tr.unreadpm {
 #lolgo {
     position: absolute;
     left: 0;
+    width: 410px;
 }
 
 #request_table a {
