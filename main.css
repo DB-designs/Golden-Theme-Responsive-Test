@@ -639,6 +639,8 @@ td {
     display: inline-block;
     width: 50%;
     color: #afafaf;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 td.colhead,
@@ -1907,4 +1909,8 @@ input#post_preview {
 
 #footer > div {
     width: 100% !important;
+}
+
+.sidebar a {
+    font-size: 25px !important;
 }
