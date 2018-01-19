@@ -258,13 +258,13 @@ ul.thin li {
 #content {
     margin-top: 105px;
     /* width: 100%; */
-    /* min-width: 1000px; */
+    min-width: 0px !important;
     overflow: hidden;
 }
 
 #footer {
     margin-top: 40px;
-    /* width: 100%; */
+    width: 100%;
     text-align: center;
     padding: 1em 0;
 }
@@ -292,9 +292,9 @@ ul.thin li {
     background: #222222;
     position: absolute;
     overflow: hidden;
+    min-width: 0px !important;
     text-align: center;
     width: 100%;
-    /* min-width: 1000px; */
     top: 136px;
     padding: 0.0em 0;
     font: 14px/40px Tahoma, Verdana, sans-serif;
@@ -465,6 +465,7 @@ input.hidden {
 
 .thin {
     /* width: 1200px; */
+    width: 100% !important;
     margin: 0px auto;
 }
 
@@ -544,11 +545,12 @@ p.min_padding {
 
 .sidebar {
     /* float: left; */
-    /* width: 340px; */
+    width: 340px;
     /* height: 100%; */
     /* margin-left: 50px; */
     overflow: hidden;
     white-space: nowrap;
+    width: 100%;
     text-overflow: ellipsis;
 }
 
@@ -578,6 +580,7 @@ p.min_padding {
     /* float: right; */
     /* margin: 0 100px 10px 0; */
     /* width: 700px; */
+    width: 100%;
 }
 
 .main_column .box,
@@ -1239,6 +1242,7 @@ span.powerleech {
 #header {
     border-bottom: #151515;
     height: 135px;
+    min-width: 0px !important;
 }
 
 #userinfo {
@@ -1897,4 +1901,9 @@ input#post_preview {
 
 #bonus > #wrapper > #content > div  input[type="box"] {
     width: 60px;
+}
+
+
+#footer > div {
+    width: 100% !important;
 }
